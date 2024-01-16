@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Alura Export",
+    "version": "1.0",
+    "description": "Enables export of keyword research without a subscription",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
